@@ -19,7 +19,7 @@ async function main() {
 async function insertIntoMongo(client){
     var dbo = client.db("nyt_database");
 
-    for (var j = 8; j < 9; j++) {
+    for (var j = 10; j < 13; j++) {
         var string = 'https://api.nytimes.com/svc/archive/v1/2020/' + j.toString() + '.json?api-key=r5iHW94vfaAB32DcxrEeslnAjmM2KGA0';
         console.log("Year: 2001 " + "Month: " + j.toString());
             
